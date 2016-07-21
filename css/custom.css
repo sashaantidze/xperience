@@ -6,6 +6,7 @@ body {
 	text-align: center;
 	background-image: url('../images/nyc.jpg');
 	color: white;
+	background-attachment: fixed;
 	border-bottom: 2px solid #e74c3c;
 }
 
