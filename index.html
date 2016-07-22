@@ -61,7 +61,25 @@
       <div class="container">
         <h1>Our goal is to inspire <br> Tallahassee to write 1,000,000<br>Lines of code_</h1>
         <p>All over the country people are taking the <strong>HOURS OF CODE</strong> challange issued by <strong>CODE.org</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur debitis blanditiis doloribus optio officiis ipsum aliquam distinctio rerum quae est minima minus accusantium animi, non quo velit iusto facilis iste.</p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal" href="#" role="button">Learn more &raquo;</a></p>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <img src="images/code.png" alt="Code.org" width="150" title="Code.org logo">
       </div>
     </div>
@@ -116,11 +134,12 @@
         <p><span class="partonelogo">ONEMILLION</span><span class="parttwologo">LINES_</span></p>
         <p class="sl">One Community_ One million Lines Of Code_</p>
       </div>
+      <div id="back-to-top">
+        <a href="#jumbotron"<i class="fa fa-3x fa-chevron-circle-up" aria-hidden="true"></i></a>
+      </div>
     </footer>
 
-    <div id="back-to-top">
-      <a href="#jumbotron"<i class="fa fa-3x fa-chevron-circle-up" aria-hidden="true"></i></a>
-    </div>
+    
     
 
 

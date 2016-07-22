@@ -35,9 +35,10 @@ ul.nav {
 }
 
 footer{
-		background-color: #f74c3c;
+	background-color: #f74c3c;
     padding-top: 150px;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .partonelogo{
@@ -95,10 +96,12 @@ footer{
 	position: fixed;
     bottom: 20px;
     right: 20px;
+    position: absolute;
 }
 
 #back-to-top a{
 	color: #333;
+	outline: none;
 }
 
 #back-to-top a:hover{
@@ -174,6 +177,11 @@ footer .sl{
 
 	#back-to-top a{
 		font-size: 70px;
+	}
+
+	#myModal{
+		width: 300px;
+		margin: 0 auto;
 	}
 }
 
