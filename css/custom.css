@@ -91,6 +91,20 @@ footer{
 	margin-top: 15px;
 }
 
+#back-to-top{
+	position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#back-to-top a{
+	color: #333;
+}
+
+#back-to-top a:hover{
+	text-decoration: none;
+}
+
 footer .sl{
 	color: white;
 	font-size: 18px;
@@ -156,5 +170,20 @@ footer .sl{
 
 	footer p{
 		width: 80%
+	}
+
+	#back-to-top a{
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 330px){
+	#back-to-top a{
+		font-size: 50px;
+	}
+
+	#back-to-top{
+		bottom: 10px;
+		right: 10px;
 	}
 }
