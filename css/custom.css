@@ -29,6 +29,22 @@ body {
 	padding: 0 50px;
 }
 
+.modal-content iframe{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content button.close{
+	position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    font-size: 28px;
+    width: 30px;
+    opacity: 1;
+    border-radius: 16px;
+}
+
 ul.nav {
 	font-family: 'Arvo', courier, serif;
 	font-size: 13px;
@@ -153,11 +169,6 @@ footer .sl{
 	.jumbotron{
 		background-size: 1200px;
 		border-bottom: 3px solid #e74c3c; 
-	}
-
-	#myModal{
-		width: 600px;
-		margin: 0 auto;
 	}
 
 	.jumbotron h1{
