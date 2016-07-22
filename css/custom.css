@@ -146,16 +146,18 @@ footer .sl{
 		font-size: 44px;
 		margin-bottom: 30px;
 	}
-	#myModal{
-		width: 600px;
-		margin: 0 auto;
-	}
+	
 }
 
 @media (max-width: 767px) { 
 	.jumbotron{
 		background-size: 1200px;
 		border-bottom: 3px solid #e74c3c; 
+	}
+
+	#myModal{
+		width: 600px;
+		margin: 0 auto;
 	}
 
 	.jumbotron h1{
