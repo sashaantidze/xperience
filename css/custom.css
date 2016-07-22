@@ -200,6 +200,11 @@ footer .sl{
 		width: 300px;
 		margin: 0 auto;
 	}
+
+	.modal-content iframe{
+		width: 280px;
+		
+	}
 }
 
 @media (max-width: 330px){
