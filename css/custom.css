@@ -146,6 +146,10 @@ footer .sl{
 		font-size: 44px;
 		margin-bottom: 30px;
 	}
+	#myModal{
+		width: 600px;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 767px) { 
