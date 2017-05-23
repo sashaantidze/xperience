@@ -7,9 +7,9 @@
 	padding-top: 20px;
 	box-shadow: none;
 	-webkit-transition-property: box-shadow; /* Safari */
-    -webkit-transition-duration: 1s; /* Safari */
-    transition-property: box-shadow;
-    transition-duration: 1s;
+    	-webkit-transition-duration: 1s; /* Safari */
+    	transition-property: box-shadow;
+    	transition-duration: 1s;
 }
 
 #slider:hover{
