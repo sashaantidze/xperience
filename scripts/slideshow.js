@@ -2,7 +2,7 @@ $(function() {
 
 	var width = 960;
 	var animationSpeed = 1300;
-	var pause = 2500;
+	var pause = 3000;
 	currentSlide = 1;
 
 	var $slider = $('#slider');
